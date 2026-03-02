@@ -1,5 +1,5 @@
 let numeroSecreto = 0;
-let intentos = 0;
+let intentos = 10;
 let listaNumerosSorteados = [];
 let numeroMaximo = 10;
 
@@ -71,5 +71,6 @@ function reiniciarJuego(){
     document.querySelector('#reiniciar').setAttribute('disabled','true');
     
 }
+
 
 condicionesIniciales();
